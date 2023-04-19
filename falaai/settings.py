@@ -70,6 +70,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'falaai.wsgi.application'
+ASGI_APPLICATION = 'falaai.asgi.application'
 
 
 # Database
