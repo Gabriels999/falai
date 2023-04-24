@@ -104,6 +104,12 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+# Redirect
+
+LOGIN_REDIRECT_URL = '/rooms'
+LOGIN_URL = '/login'
+LOGOUT_REDIRECT_URL = LOGIN_URL
+
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
