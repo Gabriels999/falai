@@ -6,7 +6,7 @@
 
 {% block content %}
 
-<form action="." method="post" class="lg:w-1/4 px-4 mx-auto" role="form">
+<form method="post" action="{% url 'login' %}" class="lg:w-1/4 px-4 mx-auto" role="form">
     {% csrf_token %}
 
     <div class="mb-5">
