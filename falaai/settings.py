@@ -38,7 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     "channels",
-    "core"
+    "core",
+    "accounts",
+    "widget_tweaks",
 ]
 
 MIDDLEWARE = [
