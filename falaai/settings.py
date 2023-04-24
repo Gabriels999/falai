@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     "channels",
     "core",
     "accounts",
+    "rooms",
     "widget_tweaks",
 ]
 
