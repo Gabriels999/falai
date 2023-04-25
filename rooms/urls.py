@@ -1,8 +1,7 @@
-from django.contrib.auth import views as auth_views
 from django.urls import path
 
-from accounts import views
+from rooms import views
 
 urlpatterns = [
-    
+    path('rooms_list', views.rooms_list, name="rooms_list"),
 ]
