@@ -9,3 +9,8 @@ from rooms.service import rooms_svc
 @login_required
 def rooms_list(request):
     return render(request, 'rooms/rooms_list.html', {'rooms': rooms_svc.list_all_rooms()})
+
+
+@login_required
+def detailed_room(request, slug):
+    return render(request, 'rooms/detailed_room.html', {'room': rooms_svc.get_room(slug)})
